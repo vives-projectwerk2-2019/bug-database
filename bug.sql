@@ -1,1 +1,8 @@
+CREATE DATABASE bug;
 USE bug;
+CREATE  users(
+	id INT NOT NULL AUTO_INCREMENT,
+	username VARCHAR(64) NOT NULL,
+	password VARCHAR(64) NOT NULL,
+PRIMARY KEY(id)
+);
